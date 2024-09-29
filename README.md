@@ -28,23 +28,36 @@ The application includes a timer, making it interactive and engaging.
    ```bash
    git clone <repository_url>
 
+quiz-web-app/
 
-   Project Structure
+│
 
-   quiz-web-app/
+├── app.py                      # Main application file
+
+├── requirements.txt            # Required packages for your app
+
+├── static/
+
+│   ├── css/
+
+│   │   └── style.css          # Stylesheet for the application
+
+│   └── js/ 
+
+│       └── script.js          # JavaScript for quiz functionalities
+
+└── templates/
+
+    ├── base.html             # Base HTML template
+    
+    ├── home.html             # Home page template
+    
+    ├── quiz.html             # Quiz page template
+    
+    ├── result.html           # Result page template
+    
+    └── about.html            # About page template
 
    
-│
-├── app.py                    # Main application file
-├── static/
-│   ├── css/
-│   │   └── style.css         # Stylesheet for the application
-│   └── js/
-│       └── script.js         # JavaScript for quiz functionalities
-└── templates/
-    ├── base.html             # Base HTML template
-    ├── home.html             # Home page template
-    ├── quiz.html             # Quiz page template
-    ├── result.html           # Result page template
-    └── about.html            # About page template
+https://quizzapp-pgzg.onrender.com
 
