@@ -32,6 +32,8 @@ The application includes a timer, making it interactive and engaging.
    Project Structure
 
    quiz-web-app/
+
+   
 │
 ├── app.py                    # Main application file
 ├── static/
