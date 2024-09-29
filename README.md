@@ -31,13 +31,16 @@ Clone the Repository: git clone https://github.com/Vicky6706/quiz_app
 
 Create a Virtual Environment: python3 -m venv venv source venv/bin/activate # On Windows use venv\Scripts\activate
 
+Install the required packages: pip install flask
+
 Install Dependencies: Install the required Python packages using pip: pip install -r requirements.txt
 
-Run the Application: Start the Flask development server: flask run The application will be available at http://127.0.0.1:5000.
+Run the Flask  Application: python "app.py"
+Open your web browser and go to http://127.0.0.1:5000/ to access the application.
 
 
 
-
+Project Structure
 
 quiz-app/
 
@@ -70,5 +73,7 @@ quiz-app/
     └── about.html            # About page template
 
    
-
+Contributing
+If you'd like to contribute to this project,
+feel free to fork the repository and submit a pull request with your changes.
 
