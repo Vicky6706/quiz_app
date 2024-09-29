@@ -15,7 +15,7 @@ The application includes a timer, making it interactive and engaging.
 
 - **Frontend**: HTML, CSS, JavaScript
 - **Backend**: Python, Flask
-- **Deployment**: Render.com
+- **Deployment**: Render.com - https://quizzapp-pgzg.onrender.com
 
  Prerequisites
 
@@ -23,12 +23,23 @@ The application includes a timer, making it interactive and engaging.
 - pip (Python package installer)
  Installation
 
-1. Clone the repository:
 
-   ```bash
-   git clone <repository_url>
 
-quiz-web-app/
+Installation Steps
+
+Clone the Repository: git clone https://github.com/Vicky6706/quiz_app
+
+Create a Virtual Environment: python3 -m venv venv source venv/bin/activate # On Windows use venv\Scripts\activate
+
+Install Dependencies: Install the required Python packages using pip: pip install -r requirements.txt
+
+Run the Application: Start the Flask development server: flask run The application will be available at http://127.0.0.1:5000.
+
+
+
+
+
+quiz-app/
 
 │
 
@@ -59,5 +70,5 @@ quiz-web-app/
     └── about.html            # About page template
 
    
-https://quizzapp-pgzg.onrender.com
+
 
