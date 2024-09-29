@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>Quiz</h2>
+
+    
+    <div id="timer" style="font-size: 20px; font-weight: bold; color: red; text-align: center;"></div>
+
+    <form id="quizForm" action="{{ url_for('quiz') }}" method="POST">
+        {% for question in questions %}
+        <div class="question">
+            <h3>{{ loop.index }}. {{ question.question }}</h3>
+            <ul>
+                {% for choice in question.choices %}
+                <li>
+                    <input type="radio" name="question-{{ loop.index0 }}" id="question-{{ loop.index0 }}-{{ loop.index }}" value="{{ choice }}" required>
+                    <label for="question-{{ loop.index0 }}-{{ loop.index }}">{{ choice }}</label>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endfor %}
+        <button type="submit" class="btn">Submit</button>
+    </form>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+{% endblock %}
+
+
